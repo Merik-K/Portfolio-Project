@@ -1,20 +1,21 @@
+/* Custom Font */
+@font-face {
+    font-family: Oswald;
+    src: url(./Fonts/Oswald-VariableFont_wght.ttf);
+}
 header {
     text-align: center;
     font-family: Oswald;
     font-size: 80px;
     background-image: url(./Pictures/free-sky-blue-abstract-background-m8ysc.png);
 }
-
+/* Side NavBar */
 .NavBar {
-    list-style: none;
-    font-weight: bold;
-    font-family: Oswald;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    position: sticky;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
-
 .Home {
     border-radius: 20px;
     border: 3px solid #87ceeb;
@@ -23,73 +24,13 @@ header {
     width: 20px;
 }
 
-@font-face {
-    font-family: Oswald;
-    src: url(./Fonts/Oswald-VariableFont_wght.ttf);
-}
-
-.Skill {
-    border-radius: 20px;
-    border: 3px solid skyblue;
-    padding: 10px;
-    height: 15px;
-    width: 20px;
-}
-
-.Project {
-    border-radius: 20px;
-    border: 3px solid skyblue;
-    padding: 10px;
-    height: 15px;
-    width: 20px;
-}
-
-.Resume {
-    border-radius: 20px;
-    border: 3px solid skyblue;
-    padding: 10px;
-    height: 15px;
-    width: 20px;
-}
-
-.Contact {
-    border-radius: 20px;
-    border: 3px solid skyblue;
-    padding: 10px;
-    height: 15px;
-    width: 20px;
-}
-
-.About {
-    border-radius: 20px;
-    border: 3px solid skyblue;
-    padding: 10px;
-    height: 15px;
-    width: 20px;
-}
-
-.homeimg {
-    height: auto;
-    width: 20px;
-}
-
-.Skillimg {
-    height: auto;
-    width: 20px;
-}
-
-.Projectimg {
-    height: auto;
-    width: 20px;
-}
-
-.SkillBar{
+/* Skill page */
+.skill-bars{
     display: flex;
-    flex: wrap;
-    box-sizing: border-box;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center;
-    justify-content: space-between;
+
+}
+.Html{
+    background-color: orange;
+    border: 2px solid darkorange;
+    border-radius: 10%;
 }
