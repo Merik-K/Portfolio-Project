@@ -3,12 +3,14 @@
     font-family: Oswald;
     src: url(./Fonts/Oswald-VariableFont_wght.ttf);
 }
+
 header {
     text-align: center;
     font-family: Oswald;
     font-size: 80px;
     background-image: url(./Pictures/free-sky-blue-abstract-background-m8ysc.png);
 }
+
 /* Side NavBar */
 .NavBar {
     display: flex;
@@ -30,8 +32,9 @@ header {
     font-size: 20px;
     border-right: 5px solid black;
 }
+
 /* Home Button */
-.ButtonDecoration{
+.ButtonDecoration {
     border: 3px solid skyblue;
     border-radius: 16px;
     padding: 10px 20px;
@@ -40,14 +43,17 @@ header {
     display: inline-block;
     cursor: pointer;
 }
-.ImgSet{
+
+.ImgSet {
     height: auto;
     width: 30px;
 }
+
 /* So objects wont collide with navbar */
-.Body{
+.Body {
     margin-left: 200px;
 }
+
 .Home {
     border-radius: 20px;
     border: 3px solid #87ceeb;
@@ -57,14 +63,41 @@ header {
 }
 
 /* Skill page */
-.skill-bars{
+.skill-bars {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     gap: 60px;
 
 }
-.Htmlskill{
+
+/* HTML skill pad */
+.Htmlskill {
+    border-radius: 10%;
+    height: 500px;
+    width: 300px;
+    background-color: #f06529;
+    border: 10px solid #e34c26;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.HtmlT {
+    font-family: Oswald;
+}
+
+.HtmlP {
+    font-family: Oswald;
+    font-size: 25px;
+}
+
+.HtmlPro {
+    width: 300px;
+    height: 50px;
+}
+
+/* CSS skill pad */
+.CSSskill {
     border-radius: 10%;
     height: 500px;
     width: 300px;
@@ -73,21 +106,53 @@ header {
     padding-left: 15px;
     padding-right: 15px;
 }
-.CSSskill{
+
+.CssT {
+    font-family: Oswald;
+}
+
+.CssP {
+    font-family: Oswald;
+    font-size: 25px;
+}
+
+.CssPro {
+    width: 300px;
+    height: 50px;
+}
+
+/* JavaScript skill pad */
+.JSskill {
     border-radius: 10%;
     height: 500px;
     width: 300px;
-    background-color: #2965f1;
-    border: 10px solid #264de4;
+    background-color: #F0DB4F;
+    border: 10px solid #323330;
     padding-left: 15px;
     padding-right: 15px;
 }
-.JSskill{
-    border-radius: 10%;
-    height: 500px;
+
+.JsT {
+    font-family: Oswald;
+}
+
+.JsP {
+    font-family: Oswald;
+    font-size: 25px;
+}
+
+.JsPro {
     width: 300px;
-    background-color: #2965f1;
-    border: 10px solid #264de4;
-    padding-left: 15px;
-    padding-right: 15px;
+    height: 50px;
 }
+
+/* About me Section */
+.aboutMe {
+    font-family: Oswald;
+    display: flex;
+    justify-content: center;
+}
+
+.AMT {}
+
+.AMP {}
