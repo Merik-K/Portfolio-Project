@@ -4,6 +4,7 @@
     src: url(./Fonts/Oswald-VariableFont_wght.ttf);
 }
 
+/* Header */
 header {
     text-align: center;
     font-family: Oswald;
@@ -11,11 +12,61 @@ header {
     background-image: url(./Pictures/free-sky-blue-abstract-background-m8ysc.png);
 }
 
+.animatedtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.animatedtext h1 {
+    font-family: Oswald;
+    font-size: 60px;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation:
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: orange;
+    }
+}
+
+/* seperation bar */
+.bar {
+    width: 80%;
+    background-color: black;
+    border: 1px solid black;
+}
+
 /* Side NavBar */
 .NavBar {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
     height: 100%;
     width: 200px;
@@ -33,7 +84,7 @@ header {
     border-right: 5px solid black;
 }
 
-/* Home Button */
+/* navbar Decoration */
 .ButtonDecoration {
     border: 3px solid skyblue;
     border-radius: 16px;
@@ -54,15 +105,13 @@ header {
     margin-left: 200px;
 }
 
-.Home {
-    border-radius: 20px;
-    border: 3px solid #87ceeb;
-    padding: 10px;
-    height: 15px;
-    width: 20px;
-}
 
 /* Skill page */
+.skillHeader {
+    font-family: Oswald;
+    margin-left: 5%;
+}
+
 .skill-bars {
     display: flex;
     flex-direction: row;
@@ -151,8 +200,20 @@ header {
     font-family: Oswald;
     display: flex;
     justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+
 }
 
-.AMT {}
+.AMT {
+    margin-left: 0%;
+}
 
-.AMP {}
+.AMP {
+    margin-left: 80px;
+    margin-right: 75px;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
