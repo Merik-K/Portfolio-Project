@@ -78,7 +78,7 @@ header {
     height: auto;
     width: 150px
 }
-
+/* Project Panels */
 .Project {
     font-family: Oswald;
     font-size: 200px;
@@ -88,4 +88,51 @@ header {
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
+}
+.Projectpage{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-family: Oswald;
+}
+.conversion{
+    background-color: white;
+    border: 5px solid skyblue;
+    border-radius: 5%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.fakeWeb{
+    background-color: white;
+    border: 5px solid skyblue;
+    border-radius: 5%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.validSalad{
+    background-color: white;
+    border: 5px solid skyblue;
+    border-radius: 5%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
 }
