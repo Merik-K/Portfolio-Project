@@ -12,6 +12,7 @@ header {
     background-image: url(./Pictures/free-sky-blue-abstract-background-m8ysc.png);
 }
 
+/* Animated "welcome to my Portfoilo" */
 .animatedtext {
     display: flex;
     justify-content: center;
@@ -58,8 +59,8 @@ header {
 /* seperation bar */
 .bar {
     width: 80%;
-    background-color: black;
-    border: 1px solid black;
+    background-color: skyblue;
+    border: 1px solid skyblue;
 }
 
 /* Side NavBar */
@@ -81,7 +82,8 @@ header {
     padding-left: 10px;
     font-family: Oswald;
     font-size: 20px;
-    border-right: 5px solid black;
+    border-right: 5px;
+    box-shadow: skyblue;
 }
 
 /* navbar Decoration */
@@ -98,6 +100,15 @@ header {
 .ImgSet {
     height: auto;
     width: 30px;
+}
+
+.Navlink {
+    text-decoration: none;
+    color: black;
+}
+
+.Navlink:hover {
+    text-decoration: underline skyblue;
 }
 
 /* So objects wont collide with navbar */
@@ -216,4 +227,32 @@ header {
     font-size: 20px;
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+/* Contact information */
+.Contact {
+    display: flex;
+    font-family: Oswald;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactList {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    list-style: none;
+}
+
+/* Round Picture on Navbar */
+.avatar {
+    border-radius: 50%;
+    height: auto;
+    width: 150px
 }

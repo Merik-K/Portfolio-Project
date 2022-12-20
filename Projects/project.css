@@ -1,9 +1,22 @@
+/* Custom Font */
+@font-face {
+    font-family: Oswald;
+    src: url(../Fonts/Oswald-VariableFont_wght.ttf);
+}
+
 /* Name and picture placement */
 header {
     text-align: center;
     font-family: Oswald;
     font-size: 80px;
     background-image: url(../Pictures/free-sky-blue-abstract-background-m8ysc.png);
+}
+
+/* seperation bar */
+.bar {
+    width: 80%;
+    background-color: skyblue;
+    border: 1px solid skyblue;
 }
 
 /* Side NavBar */
@@ -25,7 +38,8 @@ header {
     padding-left: 10px;
     font-family: Oswald;
     font-size: 20px;
-    border-right: 5px solid black;
+    border-right: 5px;
+    box-shadow: skyblue;
 }
 
 /* navbar Decoration */
@@ -44,7 +58,34 @@ header {
     width: 30px;
 }
 
+.Navlink {
+    text-decoration: none;
+    color: black;
+}
+
+.Navlink:hover {
+    text-decoration: underline skyblue;
+}
+
 /* So objects wont collide with navbar */
 .Body {
     margin-left: 200px;
+}
+
+/* Round Picture on Navbar */
+.avatar {
+    border-radius: 50%;
+    height: auto;
+    width: 150px
+}
+
+.Project {
+    font-family: Oswald;
+    font-size: 200px;
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
